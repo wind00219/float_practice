@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #all{
+            width: 580px;
+            height: 580px;
+            background-color: aqua;
+            padding: 10px;
+            margin: 0px auto;
+        }
+        #nav{
+            width: 100%;
+            height: calc((100% - 40px) / 5);
+            background-color: red;
+            margin-bottom: 10px;
+        }
+        #middle{
+            width: 100%;
+            height: calc((100% - 40px) / 5 * 3 + 20px);
+            margin-bottom: 10px;
+        }
+        #aside{
+            width: calc((100% - 10px) / 4);
+            height: 100%;
+            background-color: green;
+            float: left;
+        }
+        #main{
+            width: calc((100% - 10px) / 4 * 3);
+            height: 100%;
+            float: right
+        }
+        #boxa{
+            width: 100%;
+            height: calc((100% - 20px ) / 3);
+            background-color: purple;
+            margin-bottom: 10px;            
+        }
+        #boxb{
+            width: 100%;
+            height: calc((100% - 20px ) / 3);
+            background-color: yellow;
+            margin-bottom: 10px;
+        }
+        #boxc{
+            width: 100%;
+            height: calc((100% - 20px ) / 3);
+            background-color: blue;
+        }
+        #footer{
+            width: 100%;
+            height: calc((100% - 40px) / 5);
+            background-color: orange;
+        }
+        body{
+            margin: 0px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="all">
+        <div id="nav"></div>
+        <div id="middle">
+            <div id="aside"></div>
+            <div id="main">
+                <div id="boxa"></div>
+                <div id="boxb"></div>
+                <div id="boxc"></div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

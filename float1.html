@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 尺寸要加單位 */
+        /* float可以改變左右對齊，但是會離開排版 */
+       #boxa{
+             width: 100px;
+             height: 100px;
+             background-color: blue;}
+       #boxb{
+             width: 150px;
+             height: 150px;
+             background-color: brown;
+             float: right}
+       #boxc{
+             width: 200px;
+             height: 200px;
+             background-color: bisque;
+             clear: right}
+    </style>
+
+</head>
+<body>
+    <!-- div鎖定同排，下一個物件只能往下，id指定div的名字 -->
+    <div id="boxa"></div>
+    <div id="boxb"></div>
+    <div id="boxc"></div>
+</body>
+</html>

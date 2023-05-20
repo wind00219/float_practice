@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 尺寸要加單位 */
+        /* float可以改變左右對齊，但是會離開排版 */
+       #boxa{
+             width: 100px;
+             height: 100px;
+             background-color: blue;}
+       #boxb{
+             width: 150px;
+             height: 150px;
+             background-color: brown;
+             clear: left}
+       #boxc{
+             width: 200px;
+             height: 200px;
+             background-color: bisque;
+             float: right}
+       #boxd{
+             width: 100px;
+             height: 100px;
+             background-color: rgb(74, 146, 96);
+             clear: right}
+       #boxe{
+             width: 150px;
+             height: 150px;
+             background-color: rgb(99, 125, 240);
+             float: left;
+             clear: left}
+       #boxf{
+             width: 200px;
+             height: 200px;
+             background-color: rgb(82, 19, 58);
+             float: right}
+       #boxg{
+             width: 100px;
+             height: 100px;
+             background-color: rgb(87, 41, 14);
+             float: right;
+             clear: right}
+    </style>
+
+</head>
+<body>
+    <!-- div鎖定同排，下一個物件只能往下，id指定div的名字 -->
+    <div id="boxa"></div>
+    <div id="boxb"></div>
+    <div id="boxc"></div>
+    <div id="boxd"></div>
+    <div id="boxe"></div>
+    <div id="boxf"></div>
+    <div id="boxg"></div>
+</body>
+</html>
